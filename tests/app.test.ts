@@ -33,9 +33,7 @@ describe("penjumlahan bilangan func", () => {
 		expect(penjumlahanBilangan([1, 2, 3, 4, 5, 6, 7], "genap")).toBe(12);
 		expect(penjumlahanBilangan([1, 2, 3, 4, 5], "ganjil")).toBe(9);
 		expect(penjumlahanBilangan([1, 2, 3, 4, 5, 6, 7], "ganj")).toBe("error");
-		expect(penjumlahanBilangan([1, 2, 3, 4, 5, 6, 7], "positif")).toBe(
-			"errors"
-		);
+		expect(penjumlahanBilangan([1, 2, 3, 4, 5, 6, 7], "positif")).toBe("error");
 	});
 });
 
