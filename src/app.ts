@@ -1,6 +1,5 @@
 // 1.
 export function minimal(a: number, b: number): number {
-	// console.log(a < b ? a : b);
 	// return a < b ? a : b;
 
 	if (a < b) return a;
